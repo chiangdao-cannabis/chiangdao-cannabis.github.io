@@ -2,10 +2,10 @@
 :root,
 ::backdrop {
     /* Set sans-serif & mono fonts */
-    --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
+    --sans-font: "Ubuntu", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
         "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
         "Helvetica Neue", sans-serif;
-    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    --mono-font: "Ubuntu Mono", Consolas, Menlo, Monaco, "Andale Mono", monospace;
     --standard-border-radius: 5px;
 
     /* Default (light) theme */
@@ -43,6 +43,99 @@
         opacity: 0.8;
     }
 }
+
+/* es */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ubuntu-v20-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/ubuntu-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/ubuntu-v20-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/ubuntu-v20-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/ubuntu-v20-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/ubuntu-v20-latin-regular.svg#Ubuntu') format('svg');
+    /* Legacy iOS */
+}
+
+.header-background-image {
+    background-image: url("./../images/header-background.png");
+    background-size: cover;
+}
+
+.header-background-color {
+    background-color: #84974f;
+}
+
+.white {
+    color: white;
+}
+
+.green {
+    color: green;
+}
+
+.greenyellow {
+    color: greenyellow;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+/* Use flexbox to allow items to wrap, as needed */
+nav ul,
+nav ol {
+    border-bottom: 1px solid var(--border);
+    align-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a,
+nav a:visited {
+    color: var(--text);
+    display: inline-block;
+    padding: 0.1rem 1rem;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--accent-bg);
+    color: var(--accent);
+    cursor: pointer;
+}
+
+/*
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map.
+ */
+#map {
+    height: 100%;
+}
+
+/* es */
 
 /* Reset box-sizing */
 *,
@@ -103,7 +196,7 @@ body>header p {
 
 /* Add a little padding to ensure spacing is correct between content and header > nav */
 main {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 body>footer {

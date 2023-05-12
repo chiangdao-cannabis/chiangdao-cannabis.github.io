@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bitcoin Course</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/logo.ico">
+    <title>Chiangdao Cannabis Farm</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.png">
     <meta name="description" content="Welcome to the Chiang Dao Cannabis Farm, the home of organic cannabis.
         We are a family run farm and welcome visitors to try our organic products.
         We offer a good menu with Sativa, Indica and hybrid ...,
@@ -30,25 +30,65 @@
 
     <link rel="stylesheet" href="/assets/stylesheet/core.css" media="screen">
 
+    <script type="module" src="/assets/scripts/index.js"></script>
+
 </head>
 
 <body>
-    <header>
-        <h1>Chiang Dao Cannabis Farm</h1>
-        <p>The home of Organic Cannabis</p>
+    <header class="header-background-image">
+
+        <h1 class="greenyellow">Chiang Dao Cannabis Farm </h1>
+        <p class="greenyellow">The home of Organic Cannabis</p>
         <nav>
             <ul>
-                <li><a href="#text">Welcome</a></li>
-                <li><a href="#embedded">ยินดีต้อนรับ</a></li>
-                <li><a href="#forms">欢迎</a></li>
-                <li><a href="#forms">いらっしゃいませ</a></li>
+                <li><a lang="the" class="header-background-image greenyellow bold" href="#embedded"><img
+                            src="/assets/images/flag-thailand.png" width="35">
+                        ยินดีต้อนรับ</a></li>
+                <li><a lang="ch" class="header-background-image greenyellow bold" href="#forms"><img
+                            src="/assets/images/flag-china.png" width="35"> 欢迎</a>
+                </li>
+                <li><a class="header-background-image greenyellow bold" href="#text"><img
+                            src="/assets/images/flag-uk.png" width="35">
+                        Welcome</a>
+                </li>
+
+                <li><a class="header-background-image greenyellow bold" href="#forms"><img
+                            src="/assets/images/flag-japan.png" width="35">
+                        いらっしゃいませ</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <nav>
+            <ul>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Photo Gallery</a></li>
+            </ul>
+        </nav>
 
-        <h1>welcome</h1>
+        <h1>Welcome</h1>
+        <p>We are a family run farm and happy to welcome visitors to try our organic products.
+            We offer a good cannabis menu with Sativa, Indica and award winning hybrids.
+        </p>
+        <p>
+            You are welcome to a tour of our gardens in a family friendly atmosphere.
+            There is always good fresh coffee and cannabis cookies and friendly smiles to greet you.
+        </p>
+
+        <div class="two-col">
+            <div>
+
+
+                <div id="map"></div>
+
+            </div>
+            <div>
+                <img src="/assets/images/aon.jpg">
+            </div>
+
+        </div>
 
 
     </main>
@@ -56,10 +96,18 @@
     <footer>
         <p class="text-alignment-center">
 
-            Contact, please email: bitcoin.training.courses@protonmail.com
-
+            chiangdao-cannabis@gmail.com
+            <br>Tel: +66 88 267 2065
+            <br>Chiang Dao Cannabis Farm,
+            7, moo 3,
+            Chiang Dao 50170, Thailand
         </p>
     </footer>
+
+    <!-- prettier-ignore -->
+    <script>(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
+            ({ key: "AIzaSyCkJOXiuO9ZoR7G7zMAW9Mf4kPmHMVoZu4", v: "beta" });</script>
+
 
 </body>
 
