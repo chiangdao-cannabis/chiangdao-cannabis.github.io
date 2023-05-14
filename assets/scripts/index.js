@@ -2,8 +2,8 @@
 let map;
 
 async function initMap() {
-    // The location of Chiang Dao 19.343710238801116, 98.97440532494934
-    const position = { lat: 19.343710238801116, lng: 98.97440532494934 };
+    // The location of Aon Farm 19.389084, 98.980963
+    const position = { lat: 19.389084, lng: 98.980963 };
     // Request needed libraries.
     //@ts-ignore
     const { Map } = await google.maps.importLibrary("maps");
