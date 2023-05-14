@@ -760,6 +760,14 @@ dialog::backdrop {
 .header-background-image {
     background-image: url("./../images/header-background.png");
     background-size: cover;
+    border: 2px solid var(--border);
+}
+
+.google-map {
+    background-image: url("./../images/google-map.png");
+    background-size: cover;
+    border: 2px solid var(--border);
+    border-radius: 5px;
 }
 
 header>nav>ul {
@@ -768,6 +776,11 @@ header>nav>ul {
 
 header>nav a {
     border: none;
+}
+
+.border {
+    border: 2px solid var(--border);
+    border-radius: 5px;
 }
 
 .text-align-center {

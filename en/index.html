@@ -27,9 +27,9 @@
     <link rel="home" href="https://chiangdao-cannabis.com/">
 
     <link rel="stylesheet" href="/assets/stylesheet/core.css" media="screen">
-
+    <!--
     <script type="module" src="/assets/scripts/index.js"></script>
-
+-->
 </head>
 
 <body>
@@ -69,8 +69,7 @@
         </p>
 
         <div class="two-col">
-            <div>
-
+            <div class="google-map">
                 <figure>
                     <div id="map"></div>
                     <figcaption>
@@ -78,15 +77,11 @@
                         <br>19.389084, 98.980963
                     </figcaption>
                 </figure>
-
-
             </div>
             <div>
-                <img src="/assets/images/aon.jpg">
+                <img class="border" src="/assets/images/aon.jpg" height="100">
             </div>
-
         </div>
-
 
     </main>
 
@@ -102,10 +97,10 @@
         </p>
     </footer>
 
-    <!-- prettier-ignore -->
+    <!-- prettier-ignore
     <script>(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
-            ({ key: "AIzaSyBhCnMQ7aUa_-i9sUYyogEhVhRmzfnj7nc", v: "beta" });</script>
-
+            ({ key: "", v: "beta" });</script>
+-->
 </body>
 
 </html>
