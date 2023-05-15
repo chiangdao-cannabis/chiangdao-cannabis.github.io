@@ -794,6 +794,7 @@ header>nav a {
 
 .no-border-top {
     border-top: none;
+    margin-top: 0;
 }
 
 .text-align-center {
