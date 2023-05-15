@@ -88,8 +88,19 @@
 /* es */
 
 img.slide-show {
+    border: none;
+    border-radius: 0;
     width: 100%;
     height: auto;
+}
+
+section.slide-show {
+    border: none;
+    margin-top: 0;
+}
+
+section.slide-show div.caption-container {
+    margin-top: -1.15vh;
 }
 
 
