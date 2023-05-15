@@ -8,12 +8,12 @@
 }
 
 /* Hide the images by default */
-.mySlides {
+.slide {
     display: none;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
-.cursor {
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -47,7 +47,7 @@
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
+.number-text {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
@@ -75,13 +75,13 @@
     width: 16.66%;
 }
 
-/* Add a transparency effect for thumnbail images */
-.demo {
+/* Add a transparency effect for thumbnail images */
+.thumbnail {
     opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.thumbnail:hover {
     opacity: 1;
 }
 
