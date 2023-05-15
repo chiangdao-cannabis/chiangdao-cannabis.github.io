@@ -1,0 +1,43 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid green;
+}
+
+thead th:nth-child(1) {
+    width: 10%;
+}
+
+thead th:nth-child(3),
+thead th:nth-child(4),
+thead th:nth-child(5) {
+    width: 12%;
+}
+
+thead th:nth-child(6),
+thead th:nth-child(7) {
+    width: 15%;
+}
+
+th {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+.menu-icon {
+    width: 20%;
+    height: auto;
+}

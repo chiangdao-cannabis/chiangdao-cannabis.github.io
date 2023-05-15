@@ -774,6 +774,11 @@ dialog::backdrop {
     border-radius: 5px;
 }
 
+.logo-small {
+    width: 20%;
+    height: auto;
+}
+
 header>nav>ul {
     border: none;
 }
@@ -785,6 +790,10 @@ header>nav a {
 .border {
     border: 2px solid var(--border);
     border-radius: 5px;
+}
+
+.no-border-top {
+    border-top: none;
 }
 
 .text-align-center {
