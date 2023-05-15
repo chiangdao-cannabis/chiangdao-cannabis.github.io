@@ -29,6 +29,7 @@
 
     <link rel="stylesheet" href="/assets/stylesheet/core.css" media="screen">
     <link rel="stylesheet" href="/assets/stylesheet/menu.css" media="screen">
+    <link rel="stylesheet" href="/assets/stylesheet/modal.css" media="screen">
 
     <!--
     <script type="module" src="/assets/scripts/index.js"></script>
@@ -61,7 +62,7 @@
         <p class="text-align-center">
             A carefully crafted menu by experienced connoisseurs catering for all moods.
             <br>
-            <b>An Aroma and a Taste for Every Occasion</i></b>
+            <b>An Aroma and a Taste for Every Occasion.</i></b>
         </p>
 
         <table>
@@ -81,7 +82,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>1 <img class="menu-icon" src="/assets/images/menu/pure-kush.jpg" alt="Pure Kush details"></td>
+                    <td>1<img id="pure-kush" class="modal-img" src="/assets/images/menu/pure-kush.jpg"
+                            alt="Pure Kush, strong and sleepy with pungent woody scent">
+                    </td>
                     <td>
                         Pure Kush Lemon Tree
                     </td>
@@ -97,7 +100,7 @@
                     <td>65</td>
                     <td>35</td>
                     <td>19</td>
-                    <td>Relaxed Happy SLeepy</td>
+                    <td>Relaxed Happy Sleepy</td>
                     <td>Grape Berry Citrus</td>
                 </tr>
                 <tr>
@@ -122,6 +125,22 @@
         </table>
 
 
+        <!-- Trigger the Modal
+        <img id="myImg" src="/assets/images/menu/pure-kush.jpg" alt="Pure Kush, strong and sleepy with pungent woody scent">
+-->
+        <!-- The Modal -->
+        <div id="modal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+
         <section class="no-border-top">
 
         </section>
@@ -139,6 +158,10 @@
             <br>geolocation (for Google Map Search): 19.389084, 98.980963
         </p>
     </footer>
+
+
+    <script src="/assets/scripts/modal.js"></script>
+
 
 </body>
 

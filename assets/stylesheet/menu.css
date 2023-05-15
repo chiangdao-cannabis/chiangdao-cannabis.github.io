@@ -3,6 +3,8 @@ table {
     width: 100%;
     border-collapse: collapse;
     border: 3px solid green;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 thead th:nth-child(1) {
@@ -21,11 +23,13 @@ thead th:nth-child(7) {
 }
 
 th {
+    overflow: hidden;
     text-align: center;
     letter-spacing: 2px;
 }
 
 td {
+    overflow: hidden;
     letter-spacing: 1px;
 }
 
