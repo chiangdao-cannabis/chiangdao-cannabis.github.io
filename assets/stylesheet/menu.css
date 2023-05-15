@@ -45,7 +45,22 @@ tfoot th {
     text-align: right;
 }
 
-.menu-icon {
-    width: 20%;
-    height: auto;
-}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    thead th:nth-child(1) {
+        width: 30%;
+    }
+
+    thead th:nth-child(23),
+    thead th:nth-child(3),
+    thead th:nth-child(4),
+    thead th:nth-child(5),
+    thead th:nth-child(6) {
+        width: auto;
+    }
+
+
+    .menu-icon {
+        width: 100%;
+        height: auto;
+    }
