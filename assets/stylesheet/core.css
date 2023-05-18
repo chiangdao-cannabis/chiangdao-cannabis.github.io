@@ -767,11 +767,10 @@ dialog::backdrop {
     border: 2px solid var(--border);
 }
 
-.google-map {
-    background-image: url("./../images/google-map.png");
-    background-size: cover;
-    border: 2px solid var(--border);
-    border-radius: 5px;
+.two-column-2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
 }
 
 .logo-small {
@@ -799,6 +798,10 @@ header>nav a {
 
 .text-align-center {
     text-align: center;
+}
+
+.word-break-normal {
+    word-break: normal;
 }
 
 .green {

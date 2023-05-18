@@ -51,14 +51,14 @@ tfoot th {
         width: 30%;
     }
 
-    thead th:nth-child(23),
+    thead th:nth-child(2),
     thead th:nth-child(3),
     thead th:nth-child(4),
     thead th:nth-child(5),
-    thead th:nth-child(6) {
-        width: auto;
+    thead th:nth-child(6),
+    thead th:nth-child(7) {
+        width: .01%;
     }
-
 
     .menu-icon {
         width: 100%;
