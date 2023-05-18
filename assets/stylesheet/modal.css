@@ -12,9 +12,16 @@
 
 .modal-window {
     position: relative;
-    width: 90%;
+    width: 30%;
     margin: 10% auto;
     padding: 20px;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-window {
+        width: 90%;
+    }
 }
 
 .modal-window.small {
