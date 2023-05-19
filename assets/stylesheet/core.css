@@ -406,7 +406,7 @@ summary {
     font-weight: bold;
     padding: 0.7rem 1rem;
     margin: -0.7rem -1rem;
-    word-break: break-all;
+    /*    word-break: break-all; */
 }
 
 details[open]>summary+* {
@@ -786,6 +786,13 @@ progress {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
+}
+
+/* Reduce header size on mobile */
+@media only screen and (max-width: 720px) {
+    .two-column-2-1 {
+        display: block;
+    }
 }
 
 .logo-small {
