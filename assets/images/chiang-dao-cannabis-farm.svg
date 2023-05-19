@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 450 150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path id="SunCatcherStudio" fill="none" stroke="none" 
+d="m 10.879888,76.964007 c 0,0 70.11879,-30 107.236822,-30 37.11803,0 72.19832,15.75736 107.23682,30 34.3858,13.97733 70.11879,29.999993 107.23683,29.999993 37.11803,0 107.23682,-29.999993 107.23682,-29.999993" />
+
+
+<text font-size="36" fill="#c3281b" letter-spacing="0" font-family="sans-serif" font-weight="normal">
+<textPath xlink:href="#SunCatcherStudio" side="left" startOffset="5">Chiang Dao Cannabis Farm</textPath></text>
+</svg>

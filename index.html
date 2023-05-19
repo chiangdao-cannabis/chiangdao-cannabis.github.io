@@ -25,6 +25,8 @@
         You are welcome to a tour of our gardens in a family friendly atmosphere. There is always good fresh coffee and cannabis cookies and friendly smiles to greet you. ">
     <meta property="og:site_name" content="Chiang Dao Cannabis Farm">
 
+    <meta name="color-scheme" content="dark light">
+
     <link rel="alternate" hreflang="x-default" href="https://www.chiangdao-cannabis.com">
     <link rel="alternate" hreflang="en" href="https://www.chiangdao-cannabis.com">
     <link rel="alternate" hreflang="th" href="https://www.chiangdao-cannabis.com/th">
@@ -40,9 +42,11 @@
 <body>
     <header class="header-background-image">
 
-        <h1 class="greenyellow">
+        <!--      <h1 class="greenyellow">
             Chiang Dao Cannabis Farm
         </h1>
+        -->
+        <img src="/assets/images/chiang-dao-cannabis-farm.svg" alt="">
         <nav>
             <ul>
                 <li><a href="#"><img src="/assets/images/flag-thailand.png" alt="Thai flag" width="50"></a></li>
@@ -58,7 +62,17 @@
                 <li><a href="/en/menu.html">Menu</a></li>
                 <li><a href="/en/gallery.html">Gallery</a></li>
                 <li><a href="/en/about-us.html">About Us</a></li>
+
+                <li class="push">
+
+                    <img id="light-mode" class="display-none" src="/assets/images/menu/light-mode.png" alt="light mode"
+                        width="20" height="20">
+
+                    <img id="dark-mode" src="/assets/images/menu/dark-mode.png" alt="dark mode" width="20" height="20">
+
+                </li>
             </ul>
+
         </nav>
 
         <h4 class="text-align-center"><i>Home of Organic Cannabis</i></h4>
@@ -110,6 +124,8 @@
             <br>geolocation (for Google Map Search): 19.389084, 98.980963
         </p>
     </footer>
+
+    <script src="/assets/scripts/dark-light.js"></script>
 
 </body>
 
