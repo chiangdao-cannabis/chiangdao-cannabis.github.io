@@ -11,8 +11,8 @@
 /* Hide the images by default */
 .slide {
     display: none;
-    width: 50%;
-    margin-left: 25%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
