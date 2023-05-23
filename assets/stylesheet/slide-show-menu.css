@@ -35,7 +35,7 @@
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
-    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(146, 125, 5);
 }
 
 /* Position the "next button" to the right */
@@ -44,12 +44,11 @@
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through
+/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-*/
 
 /* Number text (1/3 etc) */
 .number-text {
