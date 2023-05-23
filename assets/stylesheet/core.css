@@ -801,16 +801,26 @@ progress {
     height: auto;
 }
 
-header>nav>ul {
-    border: none;
-}
-
-header>nav a {
-    border: none;
+body>header {
+    text-align: start;
 }
 
 nav .push {
     margin-left: auto;
+}
+
+ul.lang {
+    border: none;
+}
+
+nav a {
+    padding: 0.1rem 0.25rem;
+    margin: 0.1rem 0.25rem;
+}
+
+span.lang {
+    padding: 0 1rem;
+    ;
 }
 
 .border {
