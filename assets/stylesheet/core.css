@@ -109,7 +109,7 @@ body>header {
     background-color: var(--accent-bg);
     border-bottom: 1px solid var(--border);
     text-align: center;
-    padding: 0 0.5rem 2rem 0.5rem;
+    padding: 0 0.5rem 2r0 0.5rem;
     grid-column: 1 / -1;
 }
 
@@ -776,16 +776,15 @@ progress {
 
 /* es */
 
-
 .header-background-image {
     background-image: url("./../images/header-background.jpg");
     background-size: cover;
-    border: 2px solid var(--border);
+    border: 1px solid var(--border);
 }
 
-.two-column-2-1 {
+.two-col {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
 
@@ -796,13 +795,16 @@ progress {
     }
 }
 
-.logo-small {
-    width: 20%;
-    height: auto;
+body>header {
+    grid-column: 2;
+    color: #dcdcdc;
+    border: none;
+    padding: 0 1rem;
 }
 
-body>header {
-    text-align: start;
+body>header img {
+    margin: 1.5rem 0;
+    opacity: 0.75;
 }
 
 nav .push {
@@ -845,8 +847,20 @@ span.lang {
     text-align: center;
 }
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 .word-break-normal {
     word-break: normal;
+}
+
+.gold {
+    color: gold;
 }
 
 .green {
@@ -861,10 +875,5 @@ span.lang {
     font-weight: bold;
 }
 
-.two-col {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
 
 /* es end */
