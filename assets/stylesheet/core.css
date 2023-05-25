@@ -802,6 +802,16 @@ body>header {
     padding: 0 1rem;
 }
 
+body>header a,
+body>header a:visited {
+    color: #dcdcdc;
+    text-decoration: none;
+}
+
+body>header a:hover {
+    color: gold;
+}
+
 body>header img {
     margin: 1.5rem 0;
     opacity: 0.75;
