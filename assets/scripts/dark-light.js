@@ -18,6 +18,13 @@ if (savedMode == "darkMode") {
     setDarkMode();
 };
 
+if (savedMode == "lightMode") {
+    /*
+        console.log("displayMode", "darkMode");
+    */
+    setLightMode();
+};
+
 function setDarkMode(event) {
     /*
         console.log("setDarkMode", event);

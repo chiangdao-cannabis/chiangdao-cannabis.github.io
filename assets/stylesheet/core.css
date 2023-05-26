@@ -28,20 +28,6 @@
 }
 
 :root,
-:root.dark,
-::backdrop {
-    color-scheme: dark;
-    --bg: #212121;
-    --accent-bg: #2b2b2b;
-    --text: #dcdcdc;
-    --text-light: #ababab;
-    --accent: #ffb300;
-    --code: #f06292;
-    --preformatted: #ccc;
-    --disabled: #111;
-}
-
-:root,
 :root.light,
 ::backdrop {
     /* Default (light) theme */
@@ -57,6 +43,20 @@
     --preformatted: #444;
     --marked: #ffdd33;
     --disabled: #efefef;
+}
+
+:root,
+:root.dark,
+::backdrop {
+    color-scheme: dark;
+    --bg: #212121;
+    --accent-bg: #2b2b2b;
+    --text: #dcdcdc;
+    --text-light: #ababab;
+    --accent: #ffb300;
+    --code: #f06292;
+    --preformatted: #ccc;
+    --disabled: #111;
 }
 
 /* Dark theme */
