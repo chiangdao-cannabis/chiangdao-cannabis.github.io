@@ -1,9 +1,9 @@
 
 # Chiang Dao Cannabis Farm
 
-## Home of Organic Cannabis
+## Home of Cannabis
 We are a family run farm with several generations establishing a long tradition of farming.
-We are happy to invite you to try our organic products.
+We are happy to invite you to try our products.
 We offer a good cannabis menu with Sativa, Indica and award winning hybrids.
 
 You are welcome to a tour of our gardens in a family friendly atmosphere.
