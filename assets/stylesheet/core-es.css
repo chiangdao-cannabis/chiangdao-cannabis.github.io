@@ -9,6 +9,10 @@
 .green {
     color: green;
 }
+
+.opacity-1 {
+    opacity: 1;
+}
 .border {
     border: 1px solid gray;
     border-radius: .25rem;
@@ -22,6 +26,9 @@
 }
 .text-align-center {
     text-align: center;
+}
+.text-align-left {
+    text-align: left;
 }
 
 .cards {
