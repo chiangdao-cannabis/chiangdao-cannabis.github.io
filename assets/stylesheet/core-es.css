@@ -47,6 +47,9 @@
 .float-right {
     float: right;
 }
+.margin-top-one-point-five {
+    margin-top: 1vh;
+}
 
 .header-background-image {
     background-image: url("./../images/header-background.jpg");
