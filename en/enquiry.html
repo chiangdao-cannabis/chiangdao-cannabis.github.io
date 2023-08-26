@@ -40,8 +40,8 @@
     <header class="header-background-image">
         <div class="two-col">
             <div>
-                <img id="logo" class="float-left opacity-1" src="/assets/images/CD-logo-transparent.png"
-                    alt="Shop logo" width="150" height="150">
+                <img id="logo" class="float-left opacity-1" src="/assets/images/CD-logo-transparent.png" alt="Shop logo"
+                    width="150" height="150">
             </div>
             <div>
                 <img class="float-right margin-top-one-point-five" src="/assets/images/phuket-cup-winner.jpg"
@@ -52,10 +52,14 @@
     <main>
         <nav>
             <ul>
+                <!--
                 <li><a href="/index-new.html">Home</a></li>
                 <li><a href="/en/shop.html">Shop Online</a></li>
                 <li><a href="/en/rest.html">Rest</a></li>
                 <li><a href="/en/about-us.html">About Us</a></li>
+                -->
+                <li><a href="/en/enquiry.html">Enquiry</a></li>
+
                 <li class="push">
                     <ul class="lang">
                         <li><a href="#"><img src="/assets/images/flag-thailand.png" alt="Thai flag" width="25"></a>
@@ -72,62 +76,64 @@
                 </li>
             </ul>
         </nav>
-        <!--
-        <figure>
-            <a target="_blank" href="https://lin.ee/kifJs5G">
-                <img id="line-shop" src="/assets/images/line.jpeg" alt="Line online shop" width="100%" height="auto">
-            </a>
-            <figcaption>
-                Scan the QR code in your Line App for special offers in our Line Shop
-            </figcaption>
-        </figure>
+
+        <h4>Enquiry test submission through email</h4>
+
+        <!-- START HERE -->
+<!-- 
+The form's class must be gform, i.e. <form class="gform">
+gform is referred to in form-submission-handler.js     
 -->
+        <form class="gform pure-form pure-form-stacked" method="POST" data-email="chiangdao.cannabis@gmail.com"
+            action="https://script.google.com/macros/s/AKfycbxVEwB3OBUlaItI6lqb3XjPu0ucqEHkHJ5n_x0F929obC4T6tg8okinB76guKy-4dVdag/exec">
+            <!-- change the form action to your script url -->
 
-        <p class="todo">TODO:</p>
-        <ul class="todo">
-            <li>Code and test online shop</li>
-            <li>Include:
-                <ul>
-                    <li>Visits:
-                        <ul>
-                            <li>Quick visit to shop and buy</li>
-                            <li>Day visit: Farm tour, Food, Walk to temple and rice fields</li>
-                        </ul>
-                    </li>
-                    <li>Ganja menu section - with link to order online</li>
-                    <li>Food menu section - with link to order food online prior to visit</li>
-                </ul>
-            </li>
-        </ul>
+            <div class="form-elements">
+                <fieldset class="pure-group">
+                    <label for="name">Name: </label>
+                    <input id="name" name="name" placeholder="What your Mom calls you" />
+                </fieldset>
 
-        <div class="border">
-            <p class="text-align-center">Special Offer</p>
-            <ul>
-                <li>Prices start at 100 to 350 Baht per gram</li>
-                <li>Buy 3g and <span class="red">get * 1g free</span></li>
-                <li>Buy 5g and <span class="red"> get * 2g free</span></li>
-                <li>Buy more than 50g for<span class="red"> * higher discounts
-                        and flexible delivery</span></li>
-            </ul>
-        </div>
+                <fieldset class="pure-group">
+                    <label for="email"><em>Your</em> Email Address:</label>
+                    <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
+                </fieldset>
 
-        <p class="small text-align-center"></p>
+                <fieldset class="pure-group">
+                    <label for="phone">Phone number: </label>
+                    <input id="phone" name="phone" placeholder="Mobile or Phone number" />
+                </fieldset>
 
-        <p class="text-align-center"><i>We can arrange delivery for large quantities anywhere in Thailand.
-                <br><b class="red">We guarantee to match any price!</b>
-                <br>Call, 88 267 2065 or email, chiangdao.cannabis@gmail.com</i>
-        </p>
-        <figure>
-            <img id="line-shop" src="/assets/images/menu/menu.jpeg" alt="Line online shop" width="100%" height="auto">
-            <figcaption>
-                An aroma and a taste for every occasion
-            </figcaption>
-        </figure>
+                <fieldset class="pure-group">
+                    <label for="message">Message: </label>
+                    <textarea id="message" name="message" rows="10"
+                        placeholder="Tell us what's on your mind..."></textarea>
+                </fieldset>
 
-        <p>
-            <img id="line-shop" src="/assets/images/under-construction.png" alt="Line online shop" width="100%"
-                height="auto">
-        </p>
+                <fieldset class="pure-group honeypot-field">
+                    <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field;
+                        must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                    <input id="honeypot" type="text" name="honeypot" value="" />
+                </fieldset>
+
+                <button class="button-success pure-button button-xlarge">
+                    <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+            </div>
+
+            <!-- Customize the Thankyou Message People See when they submit the form: -->
+            <div class="thankyou_message" style="display:none;">
+                <h2><em>Thanks</em> for contacting us!
+                    We will get back to you soon!</h2>
+            </div>
+
+        </form>
+
+        <!-- Submit the Form to Google Using "AJAX" -->
+        <script data-cfasync="false"  type="text/javascript"  
+        src="/assets/scripts/form-submission-handler.js"></script>
+        <!-- END -->
+
+
 
     </main>
 
