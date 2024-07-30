@@ -6,6 +6,7 @@
 .red {
     color: red;
 }
+
 .green {
     color: green;
 }
@@ -21,6 +22,7 @@
 .bold {
     font-weight: bold;
 }
+
 .opacity-1 {
     opacity: 1;
 }
@@ -28,18 +30,23 @@
 .small {
     font-size: 0.95rem;
 }
+
 .text-align-center {
     text-align: center;
 }
+
 .text-align-left {
     text-align: left;
 }
+
 .float-left {
     float: left;
 }
+
 .float-right {
     float: right;
 }
+
 .margin-top-one-point-five {
     margin-top: 1vh;
 }
@@ -105,6 +112,10 @@ ul.lang {
     border: none;
 }
 
+ul.list-style-none {
+    list-style-type: none;
+}
+
 nav a {
     padding: 0.1rem 0.25rem;
     margin: 0.1rem 0.25rem;
@@ -123,6 +134,7 @@ span.lang {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
 .border-top-radius-none {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -148,4 +160,3 @@ span.lang {
 .word-break-normal {
     word-break: normal;
 }
-
