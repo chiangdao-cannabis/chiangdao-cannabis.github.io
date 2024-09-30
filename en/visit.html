@@ -36,6 +36,7 @@
 
     <link rel="stylesheet" href="/assets/stylesheet/core.css" media="screen">
     <link rel="stylesheet" href="/assets/stylesheet/core-es.css" media="screen">
+    <link rel="stylesheet" href="/assets/stylesheet/slide-show.css" media="screen">
 
 </head>
 
@@ -48,6 +49,7 @@
                 <li><a href="/index.html"><b>Chiang Dao Cannabis</b></a></li>
                 <li><a href="/en/visit.html">Farm Visit</a></li>
                 <li><a href="/en/products.html">Products</a></li>
+                <li><a href="/en/course.html">Course</a></li>
                 <li><a href="/en/about-us.html">About Us</a></li>
 
                 <li class="push">
@@ -58,13 +60,143 @@
                 </li>
             </ul>
         </nav>
-        <p class="text-align-center green">Please contact Aon to arrange Farm visits. See Contact details below.</p>
+
         <figure>
-            <img id="line-shop" src="/assets/images/visit.png" alt="Line online shop" width="100%" height="auto">
+            <img id="line-shop" src="/assets/images/visit/visit.jpg" alt="Contact Aon for farm visit" width="100%"
+                height="auto">
+            <!--
             <figcaption>
-                Please contact Aon to arrange Farm visits. See Contact details below.
-            </figcaption>
+                <div class="text-align-center">
+                    <p class="red">Contact <b>Aon</b> to arrange a visit</p>
+                    <address>
+                        <a href="mailto:jim@example.com">chiangdaoaon@gmail.com</a><br />
+                        <a href="tel:+66882672065">+66 88 267 2065</a>
+                    </address>
+                    <p>
+                    <figure>
+                        <a target="_blank" href="https://line.me/ti/p/R-BkVu3TJ3">
+                            <img src="/assets/images/aon-line-QR.jpg" alt="Chiang Dao Cannabis Farm Line QR code"
+                                width="100" height="100">
+                        </a>
+                        <figcaption>
+                            <a target="_blank" href="https://line.me/ti/p/R-BkVu3TJ3">
+                                <b>Line App</b>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    </p>
+                </div>
+            </figcaption> -->
+
         </figure>
+
+        <!-- Image slider -->
+        <div>
+            <h4 class="text-align-center">
+                <i>We are happy to welcome you to our farm and our community.</i>
+            </h4>
+
+            <!-- https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
+
+            <!-- Container for the image gallery life cycle-->
+            <div class="container">
+
+                <!-- Full-width images with number text -->
+                <div class="slide">
+                    <div class="number-text">1 / 10</div>
+                    <img class="slide-show" src="/assets/images/visit/visit_1.jpg" alt="welcome">
+                </div>
+
+                <div class="slide">
+                    <div class="number-text">2 / 10</div>
+                    <img class="slide-show" src="/assets/images/visit/visit_2.jpg" alt="a playful farm">
+                </div>
+
+                <div class="slide">
+                    <div class="number-text">3 / 10</div>
+                    <img class="slide-show" src="/assets/images/visit/visit_3.jpg" alt="philosophical discussions">
+                </div>
+
+                <div class="slide">
+                    <div class="number-text">4 / 10</div>
+                    <img class="slide-show" src="/assets/images/visit/visit_4.jpg" alt="a memory snap">
+                </div>
+
+                <div class="slide">
+                    <div class="number-text">5 / 10</div>
+                    <img class="slide-show" src="/assets/images/visit/visit_5.jpg" alt="and a group photo">
+                </div>
+
+                <div class="slide">
+                    <div class="number-text">6 / 10</div>
+                    <img class="slide-show" src="/assets/images/visit/visit_6.jpg" alt="and a memory more precise">
+                </div>
+                <div class="slide">
+                    <div class="number-text">7 / 10</div>
+                    <img class="slide-show" src="/assets/images/visit/visit_9.jpg" alt="a friendly place ">
+                </div>
+                <div class="slide">
+                    <div class="number-text">8 / 10</div>
+                    <img class="slide-show" src="/assets/images/visit/visit_10.jpg" alt="a place to meet the locals ">
+                </div>
+                <div class="slide">
+                    <div class="number-text">9 / 10</div>
+                    <img class="slide-show" src="/assets/images/visit/visit_7.jpg" alt="come and measure your height ">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class=" prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Image text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail images -->
+                <div class="row">
+                    <div class="column">
+                        <img class="thumbnail slide-show cursor-pointer" src="/assets/images/visit/visit_1.jpg"
+                            onclick="currentSlide(1)" alt=" สวัสดี &dash; sàwàt dii ká">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail slide-show cursor-pointer" src="/assets/images/visit/visit_2.jpg"
+                            onclick="currentSlide(2)" alt=" a playful farm 
+                            ">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail slide-show cursor-pointer" src="/assets/images/visit/visit_3.jpg"
+                            onclick="currentSlide(3)" alt=" a place for philosophical discussions  ">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail slide-show cursor-pointer" src="/assets/images/visit/visit_4.jpg"
+                            onclick="currentSlide(4)" alt=" … a memory snap ">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail slide-show cursor-pointer" src="/assets/images/visit/visit_5.jpg"
+                            onclick="currentSlide(5)" alt=" … and a group photo ">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail slide-show cursor-pointer" src="/assets/images/visit/visit_6.jpg"
+                            onclick="currentSlide(6)" alt=" and a memory more precise ">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail slide-show cursor-pointer" src="/assets/images/visit/visit_9.jpg"
+                            onclick="currentSlide(7)" alt=" and a friendly place ">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail slide-show cursor-pointer" src="/assets/images/visit/visit_10.jpg"
+                            onclick="currentSlide(7)" alt=" and a place to meet the locals ">
+                    </div>
+                    <div class="column">
+                        <img class="thumbnail slide-show cursor-pointer" src="/assets/images/visit/visit_7.jpg"
+                            onclick="currentSlide(7)" alt=" come and measure your height  ">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
 
     </main>
 
@@ -96,6 +228,7 @@
 
 
     <script src="/assets/scripts/dark-light.js"></script>
+    <script src="/assets/scripts/slide-show.js"></script>
 
 </body>
 

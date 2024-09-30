@@ -10,6 +10,7 @@
 /* Hide the images by default */
 .slide {
     display: none;
+    text-align: center;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -26,7 +27,7 @@
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: gray;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
@@ -58,10 +59,14 @@
 /* Container for image text */
 .caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: #ecf1e5;
     padding: 2px 16px;
-    color: white;
+    color: black;
     margin-top: -7px;
+}
+
+#caption {
+    margin: 0;
 }
 
 .row:after {
@@ -91,8 +96,8 @@
 img.slide-show {
     border: none;
     border-radius: 0;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
 
 section.slide-show {
@@ -104,5 +109,9 @@ section.slide-show div.caption-container {
     margin-top: -1.15vh;
 }
 
+.row {
+    overflow: hidden;
+    height: 5vh;
+}
 
 /* es end */

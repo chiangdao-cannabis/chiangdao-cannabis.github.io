@@ -65,7 +65,7 @@
 
 /* columns */
 .responsive-two-column-grid>* {
-    padding: 1rem;
+    padding: 0.15rem;
 }
 
 /* tablet breakpoint */
@@ -122,6 +122,10 @@ span.lang {
     ;
 }
 
+.padding-zero {
+    padding: 0;
+}
+
 .border {
     border: 1px solid var(--border);
     border-radius: 5px;
@@ -151,6 +155,10 @@ span.lang {
 
 .text-align-center {
     text-align: center;
+}
+
+.text-decoration-none {
+    text-decoration: none;
 }
 
 .word-break-normal {
